@@ -1,0 +1,11 @@
+[metadata]
+repo = "metal"
+arch = "x86_64"
+channel = "stable"
+
+[pfetch."0.6.0-1"]
+arch = "any"
+description = "pretty system information tool written in POSIX sh"
+license = "MIT"
+binary = "0aa43a9886e15809ce2d073c4d6ccb2c32c7ad0661c1ba851debb8a484a14f09"
+recipe = "73fa6a81a79ac5eaadf6f83c728eadc1f564f1e2c23a08e91ecd4366dabe5ad8"

@@ -1,0 +1,2 @@
+*.mpkg binary
+*.sig text eol=lf

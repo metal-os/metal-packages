@@ -1,0 +1,21 @@
+# Copy this directory to recipes/NAME/ and rename the file to NAME.recipe.toml.
+
+[package]
+name = "template"
+version = "1.0"
+description = "one line"
+license = "MIT"
+arch = ["x86_64"]
+
+[source]
+url = "https://example.org/template-1.0.tar.gz"
+sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+
+[build]
+build = '''
+./configure --prefix=/usr
+make -j"$JOBS"
+'''
+install = '''
+make install DESTDIR="$DESTDIR"
+'''
